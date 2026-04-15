@@ -16,7 +16,7 @@ This repository currently contains the following wolfSSL product versions.
 
 |Product|Version|Notes|
 |:--|:--|:--|
-|wolfSSL|5.8.4 stable|Latest release of wolfSSL|
+|wolfSSL|5.9.1 stable|Latest release of wolfSSL|
 
 ## wolfSSL Renesas Support
 
@@ -30,7 +30,8 @@ in the subdirectory linked below.
 
 |MCU|wolfSSL Commercial License Included|Software / Driver|
 |:--|:--|:--|
-|Synergy S7G2|Yes|SSP 1.7.0|
+|Synergy S7G2 (DK-S7G2)|Yes|SSP 1.7.0|
+|Synergy S7G2 (SK-S7G2)|Yes|SSP 2.7.0|
 |RA6M3|Yes|FSP 6.1.0|
 |RA6M4|Yes|FSP 6.1.0|
 |RX65N (GR-ROSE)|Yes|TSIP 1.21|
@@ -46,18 +47,19 @@ directory.
 
 |Microcontroller|Platform|Example Project|
 |:--|:--|:--|
-|Synergy S7G2|DK-S7G2|[IDE/Renesas/e2studio/DK-S7G2](./wolfssl-5.8.4-commercial/IDE/Renesas/e2studio/DK-S7G2)|
-|RA6M3|EK-RA6M3|[IDE/Renesas/e2studio/RA6M3](./wolfssl-5.8.4-commercial/IDE/Renesas/e2studio/RA6M3)|
-|RA6M4|EK-RA6M4|[IDE/Renesas/e2studio/RA6M4](./wolfssl-5.8.4-commercial/IDE/Renesas/e2studio/RA6M4)|
-|RX65N|GR-ROSE|[IDE/Renesas/e2studio/RX65N/GR-ROSE](./wolfssl-5.8.4-commercial/IDE/Renesas/e2studio/RX65N/GR-ROSE)|
-|RX65N|Renesas Starter Kit＋ for RX65N-2MB|[IDE/Renesas/e2studio/RX65N/RSK](./wolfssl-5.8.4-commercial/IDE/Renesas/e2studio/RX65N/RSK)|
-|RX72N|RX72N EnvisionKit|[IDE/Renesas/e2studio/RX72N/EnvisionKit](./wolfssl-5.8.4-commercial/IDE/Renesas/e2studio/RX72N/EnvisionKit)|
-|RZN2L|RSK+RZN2L|[IDE/Renesas/e2studio/RZN2L](./wolfssl-5.8.4-commercial/IDE/Renesas/e2studio/RZN2L)|
+|Synergy S7G2|DK-S7G2|[IDE/Renesas/e2studio/DK-S7G2](./wolfssl-5.9.1-commercial/IDE/Renesas/e2studio/DK-S7G2)|
+|RA6M3|EK-RA6M3|[IDE/Renesas/e2studio/RA6M3](./wolfssl-5.9.1-commercial/IDE/Renesas/e2studio/RA6M3)|
+|RA6M4|EK-RA6M4|[IDE/Renesas/e2studio/RA6M4](./wolfssl-5.9.1-commercial/IDE/Renesas/e2studio/RA6M4)|
+|RX65N|GR-ROSE|[IDE/Renesas/e2studio/RX65N/GR-ROSE](./wolfssl-5.9.1-commercial/IDE/Renesas/e2studio/RX65N/GR-ROSE)|
+|RX65N|Renesas Starter Kit＋ for RX65N-2MB|[IDE/Renesas/e2studio/RX65N/RSK](./wolfssl-5.9.1-commercial/IDE/Renesas/e2studio/RX65N/RSK)|
+|RX72N|RX72N EnvisionKit|[IDE/Renesas/e2studio/RX72N/EnvisionKit](./wolfssl-5.9.1-commercial/IDE/Renesas/e2studio/RX72N/EnvisionKit)|
+|RZN2L|RSK+RZN2L|[IDE/Renesas/e2studio/RZN2L](./wolfssl-5.9.1-commercial/IDE/Renesas/e2studio/RZN2L)|
 
 ## Additional wolfSSL Products to Explore
 
 |Product|Description|
 |:--|:--|
+|[wolfIP](https://www.wolfssl.com/products/wolfip/)|Tiny deterministic TCP/IP stack
 |[wolfSSH](https://www.wolfssl.com/products/wolfssh/)|Lightweight SSHv2 library
 |[wolfMQTT](https://www.wolfssl.com/products/wolfmqtt/)|Lightweight MQTT client
 |[wolfBoot](https://www.wolfssl.com/products/wolfboot/)|Portable secure bootloader
